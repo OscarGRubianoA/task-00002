@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: linear-gradient(rgba(0,0,10,0.1),rgba(0,0,0,0.75)
+    ),
+    url(./assets/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header{
+   width: 100%;
+    height: 20vh;
+    border-bottom: 2px solid black;
+}
+header nav{
+    display: inline;
+    padding: 1rem;
+    margin: 1rem;
+}
+header a{
+    margin: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgba(0, 0, 10, 0.34);
+}
+.active{
+    color: black;
+}
+header img{
+    height: 5.7rem;
+    width: 5rem;
+    
+    margin-left: 75rem;
+    padding: 1rem;
+}
+main{
+    margin: 1rem;
+    padding: 2rem;
+
+}
+main h1{
+    padding: 1rem;
+    text-align: center;
+}
+main p{
+    text-align: center;
+}
+main div{
+    display: inline;  
+}
+
+main div img{
+    width: 50%;
+    margin-left: 42rem;
+    
+    height: 100%;
+    object-fit: cover;
+    
+}
+main img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+main>div>p{
+    width: 50%; 
+}

@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+     height: 20vh;
+     border-bottom: 2px solid black;
+ }
+ header nav{
+     display: inline;
+     padding: 1rem;
+     margin: 1rem;
+ }
+ header a{
+     margin: 1rem;
+     padding: 2rem;
+     text-decoration: none;
+     font-size: 2rem;
+     color: rgba(0, 0, 10, 0.34);
+ }
+ .active{
+     color: black;
+ }
+ header img{
+     height: 5.7rem;
+     width: 5rem;
+     
+     margin-left: 75rem;
+     padding: 1rem;
+ }
+ .main__indexII{
+    height: 75vh;
+    background-image: url(./assets/image5.jpg);
+    background-size: 100% 180%;
+    background-position: center;
+    object-fit: contain;
+    text-align: center;
+    /* padding-top: 17.9rem; */
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+ }
+ main a{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    padding: .1rem;
+    border-radius: 2px;
+ }
+ div{
+    height: 30vh;
+    background-image:url(./assets/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 180%;
+    background-position: center;
+    object-fit: contain;
+    text-align: center;
+    margin: 1rem;
+    
+    
+ }
+ div p{
+    width: 70%;
+    text-align: center;
+    padding: 5rem 0 0 34rem;
+ }
+ section{
+    width: 33%;
+    display: inline-block;
+ }
+ section>img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+.main__aboutII{
+    text-align: center;
+
+}
+.main__aboutII img{
+    width:10rem;
+    
+    object-fit:contain;
+}
